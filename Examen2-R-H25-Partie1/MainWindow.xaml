@@ -5,6 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Examen2_R_H25_Partie1"
         mc:Ignorable="d"
-        Title="Gestion des Employés" Height="450" Width="800">
+        Title="Gestion des Employés" Height="500" Width="500">
+    <StackPanel Margin="10,10,10,10">
 
+        <TextBlock Text="Numéro Employé :" />
+        <TextBox Name="txtNoEmploye"  />
+
+        <TextBlock Text="Nom :" />
+        <TextBox Name="txtNom" />
+
+        <TextBlock Text="Prénom :" />
+        <TextBox Name="txtPrenom" />
+
+        <!-- TODO : 
+            Compléter l'interface pour qu'il corresponde à l'image fournie :
+            "Examen 2 - R - H25 - Partie 1.png" 
+        -->
+
+
+        <ListBox Name="lstEmp" 
+                 ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                 Height="230" >
+        </ListBox>
+    </StackPanel>
 </Window>
