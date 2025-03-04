@@ -32,7 +32,10 @@ namespace Examen2_R_H25_Partie1
             // TODO : Afficher la liste d'employés
         }
 
-        // TODO : Gérer le bouton Ajouter pour qu'il ajoute un employé dans la liste
-        // le nouvel employé doit aussi s'afficher dans la ListBox sur l'interface.
+        // TODO : Gérer le bouton Ajouter pour qu'il ajoute un employé dans la liste.
+        // Comme tous les employés sont dans le même entreprise, le numéro de téléphon est toujours le même.
+        // Si les données ne sont pas valides, afficher le message d'erreur obtenu dans un Label ou un MessageBox.
+        // Si tout est valide, le nouvel employé doit aussi s'afficher dans la ListBox sur l'interface.
+
     }
 }

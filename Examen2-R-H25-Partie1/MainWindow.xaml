@@ -18,8 +18,10 @@
         <TextBox Name="txtPrenom" />
 
         <!-- TODO : 
-            Compléter l'interface pour qu'il corresponde à l'image fournie :
+            Compléter l'interface avec les contrôles manquants pour qu'il corresponde à l'image fournie :
             "Examen 2 - R - H25 - Partie 1.png" 
+            Ajouter un Label pour les messages d'erreurs au besoin.
+            Vous avez le droit de modifier le code fourni, entre autre pour ajuster les dimmensions au besoin.
         -->
 
 
